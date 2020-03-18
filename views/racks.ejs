@@ -52,10 +52,10 @@
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <form>
+                                    <form  action="/racks" method="POST">
                                         <div class="form-group">
                                           <label for="rackName">RackName</label>
-                                          <input type="textarea" class="form-control" id="rackName" aria-describedby="rackHelp">
+                                          <input type="textarea" class="form-control" id="name" name="name" aria-describedby="rackHelp">
                                         </div>
                                         <button type="submit" class="btn btn-primary">Submit</button>
                                       </form>
@@ -76,10 +76,6 @@
                                             <label for="rackSelector">RackName</label>
                                             <select class="custom-select">
                                                 <option selected>Select Rack</option>
-                                                <option value="1">EL-OFF</option>
-                                                <option value="2">EL-LIB</option>
-                                                <option value="3">EL-4T5</option>
-                                                <option value="4">EL-K1</option>
                                             </select>
                                         </div>
                                         <button type="submit" class="btn btn-danger">Submit</button>
